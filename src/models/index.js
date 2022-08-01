@@ -1,10 +1,5 @@
-
-import Categoria from "./Categoria"
-import Autor from "./Autor";
-import Usuario from "./Usuario";
-import Livro from "./Livro";
-import Emprestimo from "./Emprestimo";
-import EmprestimoLivro from "./EmprestimoLivro";
+import baseModel from './baseModel';
+import Usuario from './autenticacaoModel';
 
 
 (async () => {
@@ -14,4 +9,7 @@ import EmprestimoLivro from "./EmprestimoLivro";
   // await Livro.sync({force:true})
   // await Emprestimo.sync({force: true})
   // await EmprestimoLivro.sync({force: true})
+  // await Usuario.sync({force: true});
 })()
+
+//teste
