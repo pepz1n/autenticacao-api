@@ -1,9 +1,9 @@
 # autenticacao-api
 
 
-###Criar arquivo .env
+### Criar arquivo .env
 
-*utilizar variaveis:
+* utilizar variaveis:
 POSTGRES_DB=autenticacao
 POSTGRES_USERNAME=postgres
 POSTGRES_PASSWORD=unochapeco
